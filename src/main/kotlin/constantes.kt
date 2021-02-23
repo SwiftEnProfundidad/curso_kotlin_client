@@ -7,4 +7,4 @@ fun constants() {
 
     print(number)
     print(number)
-}gi t
+}
