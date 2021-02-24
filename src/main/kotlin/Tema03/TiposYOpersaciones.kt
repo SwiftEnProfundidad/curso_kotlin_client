@@ -46,4 +46,5 @@ fun main() {
     val exclamationMark: Char = '!'
     message += exclamationMark // "Hello my name is Joe!"
 
+    // String Templates
 }
