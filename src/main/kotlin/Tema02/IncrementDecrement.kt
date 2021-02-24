@@ -1,7 +1,7 @@
-
+package Tema02
 fun incrementDecrement() {
 
-    // incremento y decremento de variables
+    // incremento y decremento de Tema02.variables
     var monstruoCalavera: Int = 5
 
     monstruoCalavera = monstruoCalavera + 8

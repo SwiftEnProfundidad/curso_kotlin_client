@@ -1,4 +1,4 @@
-
+package Tema02
 
 
 fun variables() {

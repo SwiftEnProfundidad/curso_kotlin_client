@@ -1,4 +1,4 @@
-
+package Tema02
 fun main() {
 
     // Inferencia de tipos
@@ -34,5 +34,14 @@ fun main() {
     val totalCost02 = hourlyRate * hoursWorked
     print(totalCost02)
 
+    val stringDog = "Dog"
+
+    var message = "Hello" + " my name is "
+    val name = "Joe"
+    message += name // "Hello my name is Joe"
+    print(message)
+
+    val exclamationMark: Char = '!'
+    message += exclamationMark // "Hello my name is Joe!"
 
 }
