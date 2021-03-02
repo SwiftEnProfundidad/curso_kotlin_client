@@ -24,7 +24,7 @@ fun main() {
    // print(monstruo01_x1)
    // print(monstruo01_y1)
 
-    var posicionMonstruo01 = Pair("x = $monstruo01_x1" , "y = $monstruo01_y1"  )
+    var posicionMonstruo01 = Pair("x = $monstruo01_x1" , "y = $monstruo01_y1")
     print(posicionMonstruo01)
 
     val (x, _, z) = coordinates02
@@ -38,6 +38,41 @@ fun main() {
 
     val answer = a + b + c // Answer will be an Int
 
-    print(answer)
+    //print(answer)
+
+    /*Types Any, Unit & nothing
+    *
+    * si queremos añadir más comentario*/
+
+    val anyNumber: Any = 42
+    val anyString: Any = "42" + "333"
+"""
+    ASFDASDF
+""".trimIndent()
+
+    fun add() {
+        val result = 2 + 2
+        println(result)
+    }
+
+    fun add2(): Unit {
+        val result = 2 + 2
+        println(result)
+    }
+
+    print(add2())
+
+    fun doNothingForever(): Nothing {
+        while(true) {
+
+     // lo que va aquí dentro va a ser llamado infinitas veces
+        }
+    }
+
+    var name = "Joe"
+    name += " Howard"
+
 }
+
+
 
