@@ -41,5 +41,11 @@ fun main() {
 
     val andOr = (1 < 2 && 3 > 4) || 1 < 4
 
-    print(andOr)
+    // Igualdad de cadenas
+    val guess = "dog"
+    val dogEqualsCat = guess == "cat"
+
+    val order = "cat" < "dog"
+
+    print(order)
 }
