@@ -28,10 +28,10 @@ fun main() {
     */
 
    // Operador Booleano AND
-    val and1 = false && false
-    val and2 = true && true
-    val and3 = false && true
-    val and4 = true && false
+    val and1 = false && false // true
+    val and2 = true && true // false
+    val and3 = false && true // false
+    val and4 = true && false // false
 
     // Operador Booleano OR
     val or01 = false || false // false
@@ -105,6 +105,17 @@ fun main() {
         "INVALID HOUR!"
     }
     println(timeOfDay)
+
+    // Cortocircuito
+    val name = "Matt Galloway"
+    if (1 < 2 && name == "Matt Galloway") { // true && true
+        // ...
+    }
+
+    if (1 < 2 || name == "Matt Galloway") { // false || true
+        // ...
+    }
+
 
 
 }
